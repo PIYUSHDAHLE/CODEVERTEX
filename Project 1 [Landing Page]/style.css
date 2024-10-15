@@ -1,0 +1,142 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+}
+.header .contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.header .contact-info div {
+  display: flex;
+  align-items: center;
+}
+.header .contact-info div i {
+  margin-right: 10px;
+}
+.header .contact-info div a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.navbar {
+  background: #333;
+  padding: 10px 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.navbar .logo {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+.navbar .menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar .menu li {
+  margin-left: 20px;
+}
+.navbar .menu li a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  background: url("https://www.betterup.com/hs-fs/hubfs/Overhead-Shot-Of-Designers-Planning-Project-In-Office.jpg?width=964&name=Overhead-Shot-Of-Designers-Planning-Project-In-Office.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+}
+.hero-layout {
+  text-align: center;
+  padding: 200px 20px;
+  background-color: #0000006e;
+}
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.hero .buttons {
+  margin-top: 20px;
+}
+.hero .buttons a {
+  background: #ff7e5f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.features {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.features .feature {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+}
+.features .feature i {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.about {
+  padding: 50px 20px;
+  text-align: center;
+}
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.about .read-more {
+  background: #ff7e5f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.services {
+  padding: 50px 20px;
+  text-align: center;
+}
+.services .service {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+}
+.services .service img {
+  width: 100%;
+  height: 60%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.services .service h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.services .service p {
+  font-size: 16px;
+}
